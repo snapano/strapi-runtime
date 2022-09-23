@@ -1,0 +1,32 @@
+{
+  "name": "snapano-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Snapano backend service based on strapi",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.3.8",
+    "@strapi/plugin-users-permissions": "4.3.8",
+    "@strapi/plugin-i18n": "4.3.8",
+    "better-sqlite3": "7.4.6",
+    "mysql": "^2.18.1",
+    "pg": "^8.8.0"
+  },
+  "author": {
+    "name": "Snapano.dev"
+  },
+  "strapi": {
+    "uuid": "051f6228-f80f-421f-b42f-4fc9c43b18da"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
